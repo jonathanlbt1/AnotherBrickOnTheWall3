@@ -17,6 +17,6 @@ public class Application {
         } else {
             System.out.println("Voce digitou uma consoante!");
         }
-
+        sc.close();
     }
 }
