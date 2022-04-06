@@ -16,12 +16,14 @@ public class Application {
         System.out.println("SEJA BEM VINDO AO DESAFIO 1");
         for(int i=0; i < 10; i++) {
             System.out.println();
+
             System.out.println("Entre com os dados da pessoa numero " + (i+1));
             System.out.print("Idade: ");
             idade = sc.nextInt();
 
             System.out.print("Altura: ");
             altura = sc.nextDouble();
+
             System.out.print("Peso: ");
             peso = sc.nextDouble();
 

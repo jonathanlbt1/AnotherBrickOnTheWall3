@@ -20,8 +20,6 @@ public class Application {
         } else {
             System.out.println(letraUm + ", " + letradois + " = " + ((letradois - letraUm)-1));
         }
-
         sc.close();
-
     }
 }
